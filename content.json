@@ -1,0 +1,574 @@
+{
+  "profile": {
+    "name": "곽지호",
+    "nameEn": "Gwak Jiho",
+    "role": "AI Researcher & Developer",
+    "school": "국립금오공과대학교",
+    "department": "컴퓨터AI공학과",
+    "status": "석사 졸업 예정",
+    "email": "gwakjyo@gmail.com",
+    "motto": "Every Answer Has a Story.",
+    "intro": [
+      "딥러닝과 LLM을 연구하는 곽지호입니다. 자연어처리(NLP), 멀티 에이전트, 정보 검색(Retrieval) 분야의 연구 경험을 보유하고 있습니다."
+    ],
+    "interests": [
+      "Natural Language Processing",
+      "Text Embeddings",
+      "LLM Agents",
+      "Information Retrieval"
+    ],
+    "summary": "모델을 이해하고, 데이터를 연결하고, 연구에 필요한 도구를 만듭니다."
+  },
+  "education": [
+    {
+      "title": "국립금오공과대학교",
+      "detail": "컴퓨터AI공학과 · 석사 졸업 예정",
+      "label": "Master’s"
+    },
+    {
+      "title": "국립금오공과대학교",
+      "detail": "컴퓨터공학과 · 학사",
+      "label": "Bachelor’s"
+    }
+  ],
+  "experience": [
+    {
+      "organization": "RISE사업단 · 에스케이지(주)",
+      "title": "비정형 금속 단면 형상인식 AI 기반 공정 통합형 스마트 검사 플랫폼 개발",
+      "period": "2026"
+    },
+    {
+      "organization": "KISTI",
+      "title": "생성형 AI 기반 연구분야–특허–산업 분류체계 연계 모델 시범 구축",
+      "period": "2026"
+    },
+    {
+      "organization": "KISTI",
+      "title": "생성형 AI 기반 주요 분류체계 매칭 연구",
+      "period": "2025"
+    },
+    {
+      "organization": "KBSI",
+      "title": "연구장비 공동활용 논문 키워드 자동추출 엔진 개발",
+      "period": "2023–2024"
+    }
+  ],
+  "labExperience": [
+    {
+      "organization": "CILAB",
+      "title": "석사과정",
+      "period": "2025.02~"
+    },
+    {
+      "organization": "국립금오공과대학교 슈퍼컴퓨터센터",
+      "title": "운영 지원",
+      "period": "2024.03~2025.02"
+    },
+    {
+      "organization": "CILAB",
+      "title": "학부연구생 · 3년",
+      "period": "2021.03~2025.02"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Research",
+      "tools": "NLP · Embeddings · LLM · RAG · Agent",
+      "use": "텍스트 분류·검색, 분류체계 매핑, 에이전트 워크플로"
+    },
+    {
+      "name": "Development",
+      "tools": "Python · FastAPI · SQLite",
+      "use": "데이터 수집·처리, 연구 도구 API, 실행 이력 저장"
+    },
+    {
+      "name": "Deep Learning",
+      "tools": "PyTorch · TensorFlow",
+      "use": "딥러닝 모델 구현·학습·실험"
+    },
+    {
+      "name": "Infrastructure",
+      "tools": "Docker · CUDA · Singularity",
+      "use": "GPU · 컨테이너 기반 실험 환경 구성·관리"
+    },
+    {
+      "name": "Data Systems",
+      "tools": "Kafka · Elasticsearch · MySQL",
+      "use": "데이터 수집·처리 시스템 개발 경험"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "embedding",
+      "title": "임베딩 모델은,<br>어디서 달라질까?",
+      "category": "INTERACTIVE VISUALIZATION",
+      "description": "같은 텍스트가 서로 다른 임베딩 모델 안에서 어떻게 표현으로 만들어지는지, 두 모델의 구조를 나란히 비교하는 시각화입니다.",
+      "tags": [
+        "6개 모델 계열",
+        "모델 구조 비교",
+        "Query / Document"
+      ],
+      "demo": "embedding-model-landscape/",
+      "demoLabel": "모델 구조 시각화 열기",
+      "label": "01 / EMBEDDING MODEL LANDSCAPE",
+      "sub": "같은 입력이 서로 다른 임베딩 모델 안에서 어떤 경로를 거쳐 표현으로 만들어지는지 비교하는 인터랙티브 시각화입니다.",
+      "facts": [
+        [
+          "형태",
+          "인터랙티브 모델 구조 비교"
+        ],
+        [
+          "비교 대상",
+          "BGE · E5 · GTE · Jina · EmbeddingGemma · OpenAI"
+        ],
+        [
+          "주요 기능",
+          "모델 선택 · Query/Document 전환 · 단계별 탐색"
+        ]
+      ],
+      "chapters": [
+        [
+          "프로젝트 소개",
+          "같은 텍스트, 서로 다른 표현 경로",
+          "임베딩 모델의 차이를 숫자만으로 이해하기는 어렵습니다. 두 모델을 선택하고 입력 처리부터 encoder, 표현 추출, 출력과 검색까지의 경로를 나란히 따라가는 화면을 만들었습니다."
+        ],
+        [
+          "배경과 목적",
+          "사양표를 넘어 모델 안의 차이를 보기",
+          "처음에는 차원 수와 입력 길이, 모델 크기를 비교하는 화면으로 시작했습니다. 이후 어떤 단계에서 표현 방식이 달라지는지 직접 살펴볼 수 있도록 구조 비교를 중심으로 바꿨습니다."
+        ],
+        [
+          "구현한 것",
+          "하나의 입력으로 두 모델을 비교하기",
+          "BGE, E5, GTE, Jina, EmbeddingGemma, OpenAI 계열의 대표 모델을 선택할 수 있습니다. Query와 Document를 전환하고 단계별 블록을 선택하면, 해당 단계의 역할과 두 모델 사이의 차이를 확인할 수 있습니다."
+        ],
+        [
+          "문제 해결 과정",
+          "그림에서도 구조를 정확하게 구분하기",
+          "BGE의 dense·sparse·multi-vector 출력 경로는 분리하고, Jina의 task LoRA는 encoder 내부에 표시했습니다. 내부 구조가 공개되지 않은 모델은 추정해 그리지 않고, 공개된 입력·출력 범위에서 비교하도록 구성했습니다."
+        ],
+        [
+          "결과물",
+          "직접 조작하며 이해하는 구조 시각화",
+          "모델 선택, A/B 교환, 입력 역할 전환, 단계 이동과 블록별 설명을 연결했습니다. 사양표와 공식 출처는 보조 자료로 남겨, 구조를 살펴본 뒤 수치와 근거도 확인할 수 있게 했습니다."
+        ],
+        [
+          "배운 점",
+          "비교의 기준이 화면의 구조를 바꿉니다.",
+          "더 많은 정보를 나열하는 것보다, 같은 입력이 각 모델에서 어떻게 처리되는지를 같은 기준으로 보여주는 것이 중요했습니다. 도식의 벡터와 점수는 설명용 예시이며 실제 모델 추론 결과와 구분했습니다."
+        ],
+        [
+          "이어서 보기",
+          "두 모델을 골라 경로를 따라가 보세요",
+          "구조 비교 화면에서 모델과 입력 역할을 바꾸고, 각 단계의 블록을 눌러 차이를 살펴볼 수 있습니다. 이 페이지의 비교 자료는 원래 시각화에 기록된 출처 확인 시점을 기준으로 합니다."
+        ]
+      ],
+      "link": "embedding-model-landscape/",
+      "linkLabel": "모델 구조 시각화 열기",
+      "displayTitle": "Embedding Model Landscape"
+    },
+    {
+      "slug": "agent-office",
+      "title": "논문을 찾는 일에서,<br>연구를 이어가는 흐름으로.",
+      "category": "RESEARCH TOOL · MULTI-AGENT",
+      "description": "논문 수집부터 선별·분석·검토·정리까지. 역할이 다른 에이전트의 작업과 조사 이력, 인용 관계를 하나의 사무실에서 살펴보는 연구 도구입니다.",
+      "tags": [
+        "FastAPI",
+        "SQLite",
+        "Canvas",
+        "Docker"
+      ],
+      "label": "02 / AGENT OFFICE",
+      "sub": "역할이 다른 에이전트가 논문 수집·선별·분석·검토·정리를 순서대로 수행하고, 조사 결과와 인용 관계를 쌓아가는 연구 지원 도구입니다.",
+      "facts": [
+        [
+          "형태",
+          "역할별 에이전트로 구성한 가상 사무실"
+        ],
+        [
+          "주요 기술",
+          "FastAPI · SQLite · Canvas · Docker"
+        ],
+        [
+          "처리 흐름",
+          "수집 → 선별 → 분석 → 검토 → 정리"
+        ]
+      ],
+      "chapters": [
+        [
+          "프로젝트 소개",
+          "연구 에이전트들이 일하는 사무실",
+          "Agent Office는 에이전트의 역할과 작업 상태를 사무실 화면에서 확인하는 웹 도구입니다. 논문 검색과 결과 정리뿐 아니라, 각 단계의 입력·출력과 실행 이력을 함께 볼 수 있게 구성했습니다."
+        ],
+        [
+          "배경과 목적",
+          "논문 조사를 하나의 실행 흐름으로 연결하기",
+          "논문 수집, 선호도 선별, 방법론 분석, 한계점 검토, 최종 정리를 다섯 역할로 나눴습니다. 앞 단계의 결과를 다음 단계에 전달해, 각 에이전트가 같은 주제를 반복 검색하는 대신 하나의 조사 흐름을 이어가도록 했습니다."
+        ],
+        [
+          "구현한 것",
+          "검색부터 보고서까지, 단계별 입력과 출력",
+          "arXiv에서 제목·초록·메타데이터를 수집하고 검색어 관련도와 저장된 선호도로 후보를 선별합니다. 이후 방법론 분석과 한계점 검토, 최종 정리를 진행하며 역할별 상태와 결과를 DB에 저장합니다. 논문 분석의 기본 범위는 초록과 메타데이터입니다."
+        ],
+        [
+          "문제 해결 과정",
+          "관련 없는 논문을 억지로 채우지 않기",
+          "검색어 관련도가 0점인 논문도 추천 편수를 채우기 위해 통과하던 문제를 수정했습니다. 검색 조건과 제목·초록의 근거를 먼저 확인한 뒤 선호도로 정렬하고, 조건을 통과한 논문이 없으면 0편을 허용하도록 바꿨습니다."
+        ],
+        [
+          "결과물",
+          "반복 조사가 관심 분야 지도로 이어지도록",
+          "선별된 논문의 참고문헌과 후속 인용을 별도 수집해 관심 지도에 누적합니다. 같은 논문과 인용 관계는 병합하고, OpenAlex와 arXiv 원문에서 확인한 출처를 남깁니다. 조사 주제 연결과 실제 인용 관계도 구분해 표시합니다."
+        ],
+        [
+          "배운 점",
+          "자동화의 결과를 확인할 수 있어야 합니다.",
+          "작업이 완료됐다는 표시만으로는 조사 품질을 판단하기 어렵습니다. 단계별 입력·출력, 검색 근거와 제외 이유, 인용 출처를 확인할 수 있게 만드는 일이 중요했습니다. 인용 0건과 미색인·요청 실패도 구분해 기록했습니다."
+        ],
+        [
+          "실행과 운영",
+          "반복 실행과 실패 이후의 상태까지 다루기",
+          "예약 실행, 대기열, 취소와 재시작 이후의 복구 상태를 관리합니다. 실행 중인 역할은 사무실 화면에 반영하고, 보고서와 인용 정보는 지속 저장합니다. 외부 LLM 분석은 키가 설정된 경우에 실행하며, PDF 본문 분석과 실제 임베딩 모델 추론은 기본 조사 흐름의 범위에 포함하지 않습니다."
+        ]
+      ],
+      "displayTitle": "Agent Office"
+    },
+    {
+      "slug": "mapping",
+      "title": "다른 기준으로 쌓인 정보에<br>공통의 언어를 만들기.",
+      "category": "RESEARCH PROJECT · KISTI",
+      "description": "연구분야·특허·산업처럼 서로 다른 기준으로 쌓인 정보를 임베딩과 생성형 AI로 연결하는 연구과제에 참여했습니다.",
+      "tags": [
+        "Embeddings",
+        "Contrastive Learning",
+        "Taxonomy Mapping"
+      ],
+      "label": "03 / RESEARCH CONNECTION",
+      "sub": "과학기술·특허·산업 분류체계의 차이를 임베딩과 생성형 AI로 연결하는 연구에 참여했습니다.",
+      "facts": [
+        [
+          "시기",
+          "2025.06—11 / 2026.04—09"
+        ],
+        [
+          "참여",
+          "KISTI 연구과제"
+        ],
+        [
+          "연구 축",
+          "분류체계 매핑 · 임베딩 · 대조학습"
+        ]
+      ],
+      "chapters": [
+        [
+          "프로젝트 소개",
+          "같은 정보를 서로 다른 기준으로 보는 문제",
+          "연구분야, 특허, 산업의 분류체계는 서로 다른 목적으로 구축됩니다. 이를 연결하면 각각의 데이터에서 따로 보던 정보를 함께 분석할 수 있습니다."
+        ],
+        [
+          "배경과 목적",
+          "각각의 분류 결과를 잇는 방식의 한계",
+          "분류체계마다 독립된 분류기를 학습한 뒤 결과를 결합하면 분류 오차가 매핑으로 전달될 수 있습니다. 학습에서 관측하지 못한 분류 조합을 표현하는 문제도 남습니다."
+        ],
+        [
+          "진행한 일",
+          "생성형 AI와 임베딩 기반 연계 연구 참여",
+          "2025년 주요 분류체계 매칭 연구와 2026년 연구분야·특허·산업 분류체계 연계 모델 시범 구축 과제에 참여했습니다. 연계 모델 개발과 데이터 기반 매핑 성능 검증을 다뤘습니다."
+        ],
+        [
+          "접근 방법",
+          "매핑 자체를 검색하는 의미 단위로 보기",
+          "관련 연구 원고에서는 두 분류 코드의 임베딩을 합성해 하나의 매핑 표현을 만듭니다. 문서를 같은 의미 공간에 정렬하고, 한 축을 공유하는 양방향 구조적 네거티브로 두 분류 축을 구분하도록 학습합니다."
+        ],
+        [
+          "결과물",
+          "과제 수행과 관련 연구 기록",
+          "두 연구과제의 참여 기록과 교차 분류체계 매핑 관련 연구 원고를 정리했습니다. 관련 원고 「합성 임베딩을 통한 교차 분류체계 매핑」에서 접근 방법과 검증 내용을 확인할 수 있습니다."
+        ],
+        [
+          "배운 점",
+          "무엇을 연결하는지부터 다시 정의하기",
+          "이 연구에서 중요하게 본 관점은, 기존 분류 결과를 어떻게 이을지만 고민하지 않고 연결 대상인 매핑을 직접 표현하는 방식으로 문제를 다시 보는 것이었습니다."
+        ],
+        [
+          "다음 방향",
+          "연결된 정보를 실제 탐색과 분석에 활용하기",
+          "분류체계 연계를 통해 이용자가 서로 다른 데이터 사이에서 관련 정보를 찾고 새로운 연결을 발견하도록 돕고 싶습니다."
+        ]
+      ],
+      "link": "papers/cross-taxonomy-manuscript.pdf",
+      "linkLabel": "관련 연구 원고 읽기",
+      "displayTitle": "교차 분류체계 매핑"
+    }
+  ],
+  "publications": [
+    {
+      "category": "학술대회 논문",
+      "year": 2026,
+      "date": "2026.07",
+      "venue": "ACL 2026 · Volume 1: Long Papers, 38568–38577",
+      "role": "제1저자",
+      "title": "Beyond Single Representations: Multi-Model Embedding Fusion for Stable Text Classification",
+      "featuredOrder": 1,
+      "highlight": "ACL 2026 · Main Conference (Long Paper)",
+      "authors": [
+        "Jiho Gwak",
+        "Yuchul Jung"
+      ],
+      "links": [
+        {
+          "label": "ACL Anthology",
+          "href": "https://aclanthology.org/2026.acl-long.1786/"
+        },
+        {
+          "label": "PDF",
+          "href": "/papers/acl-2026-embedding-fusion.pdf"
+        }
+      ]
+    },
+    {
+      "category": "학술지 논문",
+      "year": 2026,
+      "date": "2026.01",
+      "venue": "Mathematics, 14(3), 507",
+      "role": "제1저자",
+      "title": "Utility-Based Preference Training for Effective Synthetic Text Classification",
+      "featuredOrder": 2,
+      "highlight": "Mathematics (MDPI) · SCIE",
+      "authors": [
+        "Jiho Gwak",
+        "Yuchul Jung"
+      ],
+      "links": [
+        {
+          "label": "논문",
+          "href": "https://doi.org/10.3390/math14030507"
+        }
+      ]
+    },
+    {
+      "category": "학위논문",
+      "venue": "석사 학위논문",
+      "role": "학위논문",
+      "title": "밀집 검색에서의 임베딩 저차원 판별 정보 분석과 활용",
+      "featuredOrder": 3,
+      "highlight": "석사 학위논문",
+      "authors": [
+        "곽지호"
+      ],
+      "links": []
+    },
+    {
+      "category": "학술지 논문",
+      "year": 2026,
+      "date": "2026.10",
+      "venue": "한국정보기술학회논문지, 24(10), 1–14",
+      "role": "제1저자",
+      "title": "합성 임베딩을 통한 교차 분류체계 매핑",
+      "authors": [
+        "곽지호",
+        "김민석",
+        "김준호",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "학술지 기록",
+          "href": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003397287"
+        },
+        {
+          "label": "연구 원고 PDF",
+          "href": "/papers/cross-taxonomy-manuscript.pdf"
+        }
+      ]
+    },
+    {
+      "category": "학술지 논문",
+      "year": 2026,
+      "date": "2026.05",
+      "venue": "한국정보기술학회논문지, 24(5), 1–13",
+      "role": "공동저자",
+      "title": "KoBERT–LLM 합의 기반 기타 라벨 재라벨링 기법",
+      "authors": [
+        "권수민",
+        "곽지호",
+        "박지영",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "논문",
+          "href": "https://doi.org/10.14801/jkiit.2026.24.5.1"
+        }
+      ]
+    },
+    {
+      "category": "학술지 논문",
+      "year": 2025,
+      "date": "2025.01",
+      "venue": "한국정보기술학회논문지, 23(1), 1–11",
+      "role": "제1저자",
+      "title": "저자원 텍스트분류의 성능 향상을 위한 KoBERT기반 카테고리 매핑과 LLM 결합 연구",
+      "authors": [
+        "곽지호",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "논문",
+          "href": "https://doi.org/10.14801/jkiit.2025.23.1.1"
+        }
+      ]
+    },
+    {
+      "category": "학술대회 논문",
+      "year": 2025,
+      "date": "2025.10",
+      "venue": "제37회 한글 및 한국어 정보처리 학술대회 (HCLT 2025)",
+      "role": "제1저자",
+      "title": "기술–산업 분류 체계 매핑의 설명 가능성 확보를 위한 택소노미 설계",
+      "authors": [
+        "곽지호",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "학회 기록",
+          "href": "https://sites.google.com/view/hclt-2025/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"
+        }
+      ]
+    },
+    {
+      "category": "학술대회 논문",
+      "year": 2025,
+      "date": "2025.09",
+      "venue": "한국통신학회 한국 인공지능 학술대회, 60–62",
+      "role": "제1저자",
+      "title": "대규모 언어 모델에서 차별적 계층 식별 방법",
+      "authors": [
+        "곽지호",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "논문 정보",
+          "href": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12416158"
+        }
+      ]
+    },
+    {
+      "category": "학술대회 논문",
+      "year": 2024,
+      "date": "2024.11",
+      "venue": "한국정보기술학회 추계종합학술대회 및 대학생논문경진대회",
+      "role": "제1저자",
+      "title": "대형언어모델 기반 다중 에이전트 시스템을 사용한 자동 웹 크롤러 생성",
+      "authors": [
+        "곽지호",
+        "김민근",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "PDF",
+          "href": "/papers/kiit-2024-multi-agent-crawler.pdf"
+        },
+        {
+          "label": "학회 기록",
+          "href": "https://ki-it.or.kr/homepage/boardMedia/160273"
+        }
+      ]
+    },
+    {
+      "category": "학술대회 논문",
+      "year": 2024,
+      "date": "2024.05",
+      "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회",
+      "role": "제1저자",
+      "title": "다중 카테고리 텍스트 분류에서의 언어모델 파인튜닝 고찰",
+      "authors": [
+        "곽지호",
+        "정우제",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "논문 정보",
+          "href": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11825509"
+        }
+      ]
+    },
+    {
+      "category": "학술대회 논문",
+      "year": 2024,
+      "date": "2024.05",
+      "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회, 323–326",
+      "role": "제1저자",
+      "title": "기술정책 요약보고서의 내용 깊이 강화를 위한 LLM 및 RAG 기반 보강 기법 성능 비교",
+      "authors": [
+        "곽지호",
+        "김민근",
+        "윤채원",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "논문 정보",
+          "href": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11825511"
+        }
+      ],
+      "award": "금상"
+    },
+    {
+      "category": "학술대회 논문",
+      "year": 2023,
+      "date": "2023.06",
+      "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회",
+      "role": "제1저자",
+      "title": "자기소개서 특화 GPT구축 및 Chatbot 시스템 설계",
+      "authors": [
+        "곽지호",
+        "김민석",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "학회 기록",
+          "href": "https://ki-it.or.kr/homepage/boardMedia/33071"
+        }
+      ],
+      "award": "은상"
+    },
+    {
+      "category": "학술대회 논문",
+      "year": 2022,
+      "date": "2022.06",
+      "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회",
+      "role": "공동저자",
+      "title": "과학기술 표준 분류의 성능 향상을 위한 앙상블 모델",
+      "authors": [
+        "안홍비",
+        "최종윤",
+        "곽지호",
+        "설재욱",
+        "정유철"
+      ],
+      "links": [
+        {
+          "label": "학회 기록",
+          "href": "https://ki-it.or.kr/homepage/boardMedia/33576"
+        }
+      ]
+    }
+  ],
+  "patents": [
+    {
+      "title": "문서 수집 방법, 문서 수집 시스템, 이를 위한 컴퓨터 프로그램",
+      "detail": "등록 10-2713247 · 2024.09.27 · 공동 발명자"
+    },
+    {
+      "title": "에이전트 기반 분류 체계 관리 방법, 분류 체계 관리 시스템, 이를 위한 컴퓨터 프로그램",
+      "detail": "등록 10-2831581 · 2025.07.03 · 공동 발명자"
+    }
+  ]
+}

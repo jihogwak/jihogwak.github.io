@@ -103,28 +103,15 @@
       "title": "임베딩 모델은,<br>어디서 달라질까?",
       "category": "INTERACTIVE VISUALIZATION",
       "description": "같은 텍스트가 서로 다른 임베딩 모델 안에서 어떻게 표현으로 만들어지는지, 두 모델의 구조를 나란히 비교하는 시각화입니다.",
-      "tags": [
-        "6개 모델 계열",
-        "모델 구조 비교",
-        "Query / Document"
-      ],
+      "tags": ["6개 모델 계열", "모델 구조 비교", "Query / Document"],
       "demo": "embedding-model-landscape/",
       "demoLabel": "모델 구조 시각화 열기",
       "label": "01 / EMBEDDING MODEL LANDSCAPE",
       "sub": "같은 입력이 서로 다른 임베딩 모델 안에서 어떤 경로를 거쳐 표현으로 만들어지는지 비교하는 인터랙티브 시각화입니다.",
       "facts": [
-        [
-          "형태",
-          "인터랙티브 모델 구조 비교"
-        ],
-        [
-          "비교 대상",
-          "BGE · E5 · GTE · Jina · EmbeddingGemma · OpenAI"
-        ],
-        [
-          "주요 기능",
-          "모델 선택 · Query/Document 전환 · 단계별 탐색"
-        ]
+        ["형태", "인터랙티브 모델 구조 비교"],
+        ["비교 대상", "BGE · E5 · GTE · Jina · EmbeddingGemma · OpenAI"],
+        ["주요 기능", "모델 선택 · Query/Document 전환 · 단계별 탐색"]
       ],
       "chapters": [
         [
@@ -172,27 +159,13 @@
       "title": "논문을 찾는 일에서,<br>연구를 이어가는 흐름으로.",
       "category": "RESEARCH TOOL · MULTI-AGENT",
       "description": "논문 수집부터 선별·분석·검토·정리까지. 역할이 다른 에이전트의 작업과 조사 이력, 인용 관계를 하나의 사무실에서 살펴보는 연구 도구입니다.",
-      "tags": [
-        "FastAPI",
-        "SQLite",
-        "Canvas",
-        "Docker"
-      ],
+      "tags": ["FastAPI", "SQLite", "Canvas", "Docker"],
       "label": "02 / AGENT OFFICE",
       "sub": "역할이 다른 에이전트가 논문 수집·선별·분석·검토·정리를 순서대로 수행하고, 조사 결과와 인용 관계를 쌓아가는 연구 지원 도구입니다.",
       "facts": [
-        [
-          "형태",
-          "역할별 에이전트로 구성한 가상 사무실"
-        ],
-        [
-          "주요 기술",
-          "FastAPI · SQLite · Canvas · Docker"
-        ],
-        [
-          "처리 흐름",
-          "수집 → 선별 → 분석 → 검토 → 정리"
-        ]
+        ["형태", "역할별 에이전트로 구성한 가상 사무실"],
+        ["주요 기술", "FastAPI · SQLite · Canvas · Docker"],
+        ["처리 흐름", "수집 → 선별 → 분석 → 검토 → 정리"]
       ],
       "chapters": [
         [
@@ -238,26 +211,13 @@
       "title": "다른 기준으로 쌓인 정보에<br>공통의 언어를 만들기.",
       "category": "RESEARCH PROJECT · KISTI",
       "description": "연구분야·특허·산업처럼 서로 다른 기준으로 쌓인 정보를 임베딩과 생성형 AI로 연결하는 연구과제에 참여했습니다.",
-      "tags": [
-        "Embeddings",
-        "Contrastive Learning",
-        "Taxonomy Mapping"
-      ],
+      "tags": ["Embeddings", "Contrastive Learning", "Taxonomy Mapping"],
       "label": "03 / RESEARCH CONNECTION",
       "sub": "과학기술·특허·산업 분류체계의 차이를 임베딩과 생성형 AI로 연결하는 연구에 참여했습니다.",
       "facts": [
-        [
-          "시기",
-          "2025.06—11 / 2026.04—09"
-        ],
-        [
-          "참여",
-          "KISTI 연구과제"
-        ],
-        [
-          "연구 축",
-          "분류체계 매핑 · 임베딩 · 대조학습"
-        ]
+        ["시기", "2025.06—11 / 2026.04—09"],
+        ["참여", "KISTI 연구과제"],
+        ["연구 축", "분류체계 매핑 · 임베딩 · 대조학습"]
       ],
       "chapters": [
         [
@@ -311,10 +271,7 @@
       "title": "Beyond Single Representations: Multi-Model Embedding Fusion for Stable Text Classification",
       "featuredOrder": 1,
       "highlight": "ACL 2026 · Main Conference (Long Paper)",
-      "authors": [
-        "Jiho Gwak",
-        "Yuchul Jung"
-      ],
+      "authors": ["Jiho Gwak", "Yuchul Jung"],
       "links": [
         {
           "label": "ACL Anthology",
@@ -335,10 +292,7 @@
       "title": "Utility-Based Preference Training for Effective Synthetic Text Classification",
       "featuredOrder": 2,
       "highlight": "Mathematics (MDPI) · SCIE",
-      "authors": [
-        "Jiho Gwak",
-        "Yuchul Jung"
-      ],
+      "authors": ["Jiho Gwak", "Yuchul Jung"],
       "links": [
         {
           "label": "논문",
@@ -353,9 +307,7 @@
       "title": "밀집 검색에서의 임베딩 저차원 판별 정보 분석과 활용",
       "featuredOrder": 3,
       "highlight": "석사 학위논문",
-      "authors": [
-        "곽지호"
-      ],
+      "authors": ["곽지호"],
       "links": []
     },
     {
@@ -365,12 +317,7 @@
       "venue": "한국정보기술학회논문지, 24(10), 1–14",
       "role": "제1저자",
       "title": "합성 임베딩을 통한 교차 분류체계 매핑",
-      "authors": [
-        "곽지호",
-        "김민석",
-        "김준호",
-        "정유철"
-      ],
+      "authors": ["곽지호", "김민석", "김준호", "정유철"],
       "links": [
         {
           "label": "학술지 기록",
@@ -389,12 +336,7 @@
       "venue": "한국정보기술학회논문지, 24(5), 1–13",
       "role": "공동저자",
       "title": "KoBERT–LLM 합의 기반 기타 라벨 재라벨링 기법",
-      "authors": [
-        "권수민",
-        "곽지호",
-        "박지영",
-        "정유철"
-      ],
+      "authors": ["권수민", "곽지호", "박지영", "정유철"],
       "links": [
         {
           "label": "논문",
@@ -409,10 +351,7 @@
       "venue": "한국정보기술학회논문지, 23(1), 1–11",
       "role": "제1저자",
       "title": "저자원 텍스트분류의 성능 향상을 위한 KoBERT기반 카테고리 매핑과 LLM 결합 연구",
-      "authors": [
-        "곽지호",
-        "정유철"
-      ],
+      "authors": ["곽지호", "정유철"],
       "links": [
         {
           "label": "논문",
@@ -427,10 +366,7 @@
       "venue": "제37회 한글 및 한국어 정보처리 학술대회 (HCLT 2025)",
       "role": "제1저자",
       "title": "기술–산업 분류 체계 매핑의 설명 가능성 확보를 위한 택소노미 설계",
-      "authors": [
-        "곽지호",
-        "정유철"
-      ],
+      "authors": ["곽지호", "정유철"],
       "links": [
         {
           "label": "학회 기록",
@@ -445,10 +381,7 @@
       "venue": "한국통신학회 한국 인공지능 학술대회, 60–62",
       "role": "제1저자",
       "title": "대규모 언어 모델에서 차별적 계층 식별 방법",
-      "authors": [
-        "곽지호",
-        "정유철"
-      ],
+      "authors": ["곽지호", "정유철"],
       "links": [
         {
           "label": "논문 정보",
@@ -463,11 +396,7 @@
       "venue": "한국정보기술학회 추계종합학술대회 및 대학생논문경진대회",
       "role": "제1저자",
       "title": "대형언어모델 기반 다중 에이전트 시스템을 사용한 자동 웹 크롤러 생성",
-      "authors": [
-        "곽지호",
-        "김민근",
-        "정유철"
-      ],
+      "authors": ["곽지호", "김민근", "정유철"],
       "links": [
         {
           "label": "PDF",
@@ -486,11 +415,7 @@
       "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회",
       "role": "제1저자",
       "title": "다중 카테고리 텍스트 분류에서의 언어모델 파인튜닝 고찰",
-      "authors": [
-        "곽지호",
-        "정우제",
-        "정유철"
-      ],
+      "authors": ["곽지호", "정우제", "정유철"],
       "links": [
         {
           "label": "논문 정보",
@@ -505,12 +430,7 @@
       "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회, 323–326",
       "role": "제1저자",
       "title": "기술정책 요약보고서의 내용 깊이 강화를 위한 LLM 및 RAG 기반 보강 기법 성능 비교",
-      "authors": [
-        "곽지호",
-        "김민근",
-        "윤채원",
-        "정유철"
-      ],
+      "authors": ["곽지호", "김민근", "윤채원", "정유철"],
       "links": [
         {
           "label": "논문 정보",
@@ -526,11 +446,7 @@
       "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회",
       "role": "제1저자",
       "title": "자기소개서 특화 GPT구축 및 Chatbot 시스템 설계",
-      "authors": [
-        "곽지호",
-        "김민석",
-        "정유철"
-      ],
+      "authors": ["곽지호", "김민석", "정유철"],
       "links": [
         {
           "label": "학회 기록",
@@ -546,13 +462,7 @@
       "venue": "한국정보기술학회 하계종합학술대회 및 대학생논문경진대회",
       "role": "공동저자",
       "title": "과학기술 표준 분류의 성능 향상을 위한 앙상블 모델",
-      "authors": [
-        "안홍비",
-        "최종윤",
-        "곽지호",
-        "설재욱",
-        "정유철"
-      ],
+      "authors": ["안홍비", "최종윤", "곽지호", "설재욱", "정유철"],
       "links": [
         {
           "label": "학회 기록",

@@ -131,8 +131,7 @@ function renderBackground(data) {
 function renderContact(profile) {
   return html`<section class="contact-section" aria-labelledby="contact-title">
     <span class="tiny-label">GET IN TOUCH</span>
-    <h2 id="contact-title">연구와 개발, 그 사이의 이야기.</h2>
-    <p>함께 풀어보고 싶은 문제나 나누고 싶은 이야기가 있다면 편하게 연락 주세요.</p>
+    <h2 id="contact-title">모든 연구에는 이야기가 있습니다.</h2>
     ${renderLink('mailto:' + profile.email, profile.email, 'contact-email')}
   </section>`;
 }

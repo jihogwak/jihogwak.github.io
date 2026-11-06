@@ -22,7 +22,7 @@ function renderIdentity(profile) {
       <span class="tiny-label">RESEARCH INTERESTS</span>
       <p>
         NLP & Text Embeddings<br />LLM Agents & Retrieval<br />Text Classification<br />Text
-        Augmentation
+        Augmentation<br />Preference Learning (선호 학습)<br />Fine-tuning
       </p>
     </div>
     <p class="identity-motto">Every Answer<br />Has a Story.</p>
